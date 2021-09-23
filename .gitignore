@@ -1,4 +1,6 @@
 .python-version
 config.json
+blog.md
+imgs/*
 scripts/__pychache__/*
 

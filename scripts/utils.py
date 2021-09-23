@@ -24,7 +24,7 @@ from scripts.exceptions import *
 # ************************************************************
 
 # Global Variables
-CONFIG_FILEPATH = "config.json"
+CONFIG_FILEPATH = "./config.json"
 
 # Instantiate
 client = docker.from_env()

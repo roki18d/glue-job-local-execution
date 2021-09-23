@@ -1,0 +1,23 @@
+{
+    "GENERAL": {
+        "BASE_IMAGE_NAME": "amazon/aws-glue-libs:glue_libs_1.0.0_image_01", 
+        "DOCKERFILE_LOCATION": ".", 
+        "MY_IMAGE_NAME": "my-aws-glue-libs"
+    }, 
+    "LOGGING": {
+        "CONFIG_FILE_LOCATION": "./logging.conf", 
+        "SEPARATOR_CHAR": "-", 
+        "SEPARATOR_NUM_REPEAT": 60
+    }, 
+    "DOCKER_HUB_SECRET": {
+        "USERNAME": "your username", 
+        "PASSWORD": "your password", 
+        "EMAIL": "your email", 
+        "REGISTRY": "https://index.docker.io/v1/"
+    }, 
+    "DOCKER_CONTAINER_CONFIG": {
+        "NAME": "glue_jupyter", 
+        "PORT_ON_HOST_JUPYTER_NOTEBOOK": 18888, 
+        "PORT_ON_HOST_SPARK_UI": 14040
+    }
+}
