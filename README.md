@@ -1,16 +1,10 @@
 # Glue Job Local Execution
 
-## Overview
+README.md is currently under maintainance. 
 
+For more details about this repository, see the following blog post: 
 
-## Requirements
-
-AWS CLI configured. 
-You need to create repository in advance if you would like to push built image. 
-
-
-## Instructions
-
+* [ローカルJupyterLab環境でGlueジョブを開発・テスト実行する | Zenn]()
 
 ---
 EOF
